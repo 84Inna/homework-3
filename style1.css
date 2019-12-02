@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: auto;
+  border: 3px solid black;
+  width: 500px;
+  height: 500px;
+}
+td {
+  border: 3px solid black;
+}
+.td2 {
+  height: 40px;
+  background: yellow;
+}
+.tr2 {
+  width: 40px;
+}
+.trr3 {
+  height: 30px;
+  background: blue;
+}
+.td4 {
+  width: 45px;
+  background: black;
+}
+.td5 {
+  height: 40px;
+}

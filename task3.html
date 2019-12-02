@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Table</title>
+    <link rel="stylesheet" href="../les3-home_work/style1.css" />
+  </head>
+  <style>
+    h3 {
+      margin: 0;
+      padding: 10px 20px;
+      background-color: lemonchiffon;
+      border-bottom: 5px solid grey;
+      font-family: serif;
+      display: inline-table;
+    }
+    .b1 {
+      border: 1px solid gray;
+      padding: 5px;
+      display: inline-table;
+    }
+  </style>
+  <center>
+    <nav>
+      <h3>
+        <a href="../les3-home_work/task1.html">Семантические теги</a>|
+        <a href="../les3-home_work/task2.html">Таблица</a>|
+        <a href="../les3-home_work/task3.html">Формы</a>|
+        <a href="../les3-home_work/task4.html">Списки</a>|
+      </h3>
+    </nav>
+  </center>
+  <form name="test" method="post">
+    <p>
+      <b>Name</b><br />
+      <input type="text" size="30" />
+    </p>
+    <p>
+      <b>Email</b><br />
+      <input type="email" />
+    </p>
+    <p>
+      <b>Sex</b><br />
+      <input type="radio" />Male <input type="radio" />Female
+    </p>
+    <p>
+      <b>Current status</b>
+      <br />
+      <input type="checkbox" /> Student<br />
+      <input type="checkbox" /> Employed<br />
+      <input type="checkbox" /> Unemployed<br />
+    </p>
+    <p>
+      <b>Month and Year of birth</b><br />
+      <select name="Month">
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+      </select>
+      <input
+        type="number"
+        placeholder="year"
+        name="year"
+        min="1981"
+        max="2011"
+      />
+    </p>
+    <b>Skill and Technologies</b><br />
+    <p class="b1">
+      <b>Tech skills</b><br />
+      <input type="checkbox" name="HTML" />HTML<br />
+      <input type="checkbox" name="Java" />CSS<br />
+      <input type="checkbox" name="JavaScript" /> JavaScript<br />
+      <input type="checkbox" name="git" />git<br />
+      <b>Soft skills</b><br />
+      <input type="checkbox" name="TM" /> Time management<br />
+      <input type="checkbox" name="Proactivity" /> Proactivity<br />
+      <input type="checkbox" name="Teamwork" />Teamwork<br />
+      <input type="checkbox" name="Leadership" />Leadership<br />
+    </p>
+    <p>
+      <b>Photo</b><br />
+      <input type="file" value="choose file" />
+    </p>
+    <p>
+      <b>Comments</b><br />
+      <textarea rows="8" cols="40" name="text"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="save" />
+    </p>
+  </form>
+</html>
